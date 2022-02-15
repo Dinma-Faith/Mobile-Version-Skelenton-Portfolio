@@ -13,7 +13,6 @@ body {
   margin: 5vh auto 5vh auto;
 }
 
-  /* Header-Section*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -21,7 +20,7 @@ body {
   margin-right: 20px;
 }
 
-.header a{
+.header a {
   color: #6070ff;
   text-decoration: none;
   font-size: larger;
@@ -31,7 +30,6 @@ body {
   color: #acb7ca;
 }
 
-  /* Headline-Section*/
 .content {
   padding: 20px;
   line-height: 1.6;
@@ -52,13 +50,13 @@ body {
   opacity: 1.5;
 }
 
-.connect a{
+.connect a {
   text-decoration: none;
   opacity: 0.5;
   margin-left: 1rem;
 }
-  /* Social-Links */
-.social-links ul{
+
+.social-links ul {
   display: flex;
   align-items: flex-start;
   width: 100%;
