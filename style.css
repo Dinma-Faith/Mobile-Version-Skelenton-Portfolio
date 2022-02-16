@@ -55,7 +55,7 @@ body {
 ul {
   display: flex;
   align-items: flex-start;
-  padding: 0px;
+  padding: 2px;
 }
 
 ul li {
