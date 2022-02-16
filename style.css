@@ -7,9 +7,9 @@ body {
 .wrap {
   width: 350px;
   height: 90%;
-  margin-top: 0;
+  margin-top: 0px;
   margin-left: 35%;
-  padding: 0;
+  padding: 0px;
 }
 
 .header {
@@ -50,7 +50,7 @@ body {
 }
 
 .connect {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -67,6 +67,5 @@ ul {
 ul li {
   display: flex;
   justify-content: flex-start;
-  margin-right: 10px
-  }
-
+  margin-right: 10px;
+}
