@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',
+  sans-serif;
   overflow-x: hidden;
 }
 
@@ -35,13 +36,12 @@ body {
 
 .content {
   width: 80%;
-  height: auto;
+  height: auto; 
   margin: 0 50px auto; 
   background-image: url(./img/headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -138,10 +138,6 @@ body {
   background-color: #6070ff;
   color: #fff;
 }
-.button:clicked {
-  background-color: #2230d2;
-  color: #fff;
-}
 
 .button:disabled {
   background-color: #fff;
@@ -211,7 +207,7 @@ div .second-card > img {
   margin-bottom: 50px;
 }
 
-.mp-list .bedev ,
+.mp-list .bedev,
 .num {
   color: #172b4d;
 }
@@ -221,14 +217,14 @@ div .second-card > img {
   margin-left: 10px;
 }
 
-.canopy {
-  color : #344563;
-}
+/*.canopy {
+  color: #344563;
+}*/
 
-p.text_para2 {
+/*p.text_para2 {
   color: #172b4d;
   padding-right: 3px;
-}
+}/*
 
 /* Tonic-b Section */
 div .tonic-wrap-b {
@@ -251,14 +247,14 @@ div .third-card > img {
   color: #172b4d;
 }
 
-.t-list .bedev , .num {
+/*.t-list .bedev, .num {
   color: #172b4d;
-}
+}*/
 
-.t-list .dot {
+/*.t-list .dot {
   margin-right: 10px;
   margin-left: 10px;
-}
+}*/
 
 /* Multi-PostB-Sections */
 div .multi-post-wrap-b {
@@ -273,7 +269,7 @@ div .forth-card > img {
   margin-top: 20px;
 }
 
-.multi-post {
+/*.multi-post {
   margin-top: 3px;
   margin-right: 180px;
   color: #172b4d;
@@ -283,7 +279,8 @@ div .forth-card > img {
   margin-bottom: 50px;
 }
 
-.mp-list .bedev , .num {
+.mp-list .bedev, 
+.num {
   color: #172b4d;
 }
 
@@ -293,21 +290,23 @@ div .forth-card > img {
 }
 
 .canopy {
-  color : #344563;
+  color: #344563;
 }
 
 p.text_para2 {
   color: #172b4d;
   padding-right: 3px;
-}
+}*/
 
-/*About-Myself Section  */
+ /*About-Myself Section  */
 .content2 {
   background-color: #fff;
   padding-left: 15px;
 }
 
-.lang, .frame, .skill {
+.lang, 
+.frame, 
+.skill {
   margin: 50px 50px 40px 20px;
   display: flex;
   justify-content: space-between;
@@ -315,12 +314,15 @@ p.text_para2 {
   font-size: larger;
 }
 
-.frame, .skill {
+.frame, 
+.skill {
   border-bottom: solid;
   border-bottom-color: #dfe1e6;
 }
 
-.js-chev, .html-chev, .css-chev {
+.js-chev, 
+.html-chev, 
+.css-chev {
   background-color: #f7f7f9;
   display: flex;
   align-items: center;
@@ -329,13 +331,12 @@ p.text_para2 {
   list-style-type: none;
 }
 
-.js-chev, .html-chev, .css-chev li {
+.js-chev, 
+.html-chev, 
+.css-chev li {
   padding-left: 5px;
 }
 
 ul .cont {
   padding-left: 15px;
 }
-
-
-
