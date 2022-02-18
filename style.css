@@ -2,12 +2,12 @@
 
 * {
   margin: 0;
+
   padding: 0;
 }
 
 body {
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 'Poppins',sans-serif;
   overflow-x: hidden;
 }
 
@@ -36,8 +36,8 @@ body {
 
 .content {
   width: 80%;
-  height: auto; 
-  margin: 0 50px auto; 
+  height: auto;
+  margin: 0 50px auto;
   background-image: url(./img/headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +198,7 @@ div .second-card > img {
 }
 
 .multi-post {
-  margin-top: 1px;
+  margin-right: 180px;
   margin-top: 3px;
   color: #172b4d;
 }
@@ -216,15 +216,6 @@ div .second-card > img {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-/*.canopy {
-  color: #344563;
-}*/
-
-/*p.text_para2 {
-  color: #172b4d;
-  padding-right: 3px;
-}/*
 
 /* Tonic-b Section */
 div .tonic-wrap-b {
@@ -247,15 +238,6 @@ div .third-card > img {
   color: #172b4d;
 }
 
-/*.t-list .bedev, .num {
-  color: #172b4d;
-}*/
-
-/*.t-list .dot {
-  margin-right: 10px;
-  margin-left: 10px;
-}*/
-
 /* Multi-PostB-Sections */
 div .multi-post-wrap-b {
   width: 350px;
@@ -269,43 +251,14 @@ div .forth-card > img {
   margin-top: 20px;
 }
 
-/*.multi-post {
-  margin-top: 3px;
-  margin-right: 180px;
-  color: #172b4d;
-}
-
-.mp-order {
-  margin-bottom: 50px;
-}
-
-.mp-list .bedev, 
-.num {
-  color: #172b4d;
-}
-
-.mp-list .dot {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.canopy {
-  color: #344563;
-}
-
-p.text_para2 {
-  color: #172b4d;
-  padding-right: 3px;
-}*/
-
- /*About-Myself Section  */
+/* About-Myself Section */
 .content2 {
   background-color: #fff;
   padding-left: 15px;
 }
 
-.lang, 
-.frame, 
+.lang,
+.frame,
 .skill {
   margin: 50px 50px 40px 20px;
   display: flex;
@@ -314,14 +267,14 @@ p.text_para2 {
   font-size: larger;
 }
 
-.frame, 
+.frame,
 .skill {
   border-bottom: solid;
   border-bottom-color: #dfe1e6;
 }
 
-.js-chev, 
-.html-chev, 
+.js-chev,
+.html-chev,
 .css-chev {
   background-color: #f7f7f9;
   display: flex;
@@ -331,8 +284,8 @@ p.text_para2 {
   list-style-type: none;
 }
 
-.js-chev, 
-.html-chev, 
+.js-chev,
+.html-chev,
 .css-chev li {
   padding-left: 5px;
 }
