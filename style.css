@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .wrap {
-  /* border: 2px solid red; */
   width: 450px;
   height: 100%;
   margin-left: 35%;
@@ -35,11 +36,12 @@ body {
 .content {
   width: 80%;
   height: auto;
-  margin: 0px 50px auto; 
+  margin: 0 50px auto; 
   background-image: url(./img/headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -86,7 +88,10 @@ body {
   margin-bottom: 50px;
 }
 
-.all-cards-wrap .multi-post-wrap, .tonic-wrap, .tonic-wrap-b, .multi-post-wrap-b {
+.multi-post-wrap,
+.tonic-wrap,
+.tonic-wrap-b,
+.multi-post-wrap-b {
   display: flex;
   flex-direction: column;
   margin: 50px auto;
@@ -133,7 +138,7 @@ body {
   background-color: #6070ff;
   color: #fff;
 }
-.button:pressed {
+.button:clicked {
   background-color: #2230d2;
   color: #fff;
 }
@@ -160,11 +165,12 @@ div .first-card > img {
   color: #172b4d;
 }
 
-.t-order{
+.t-order {
   margin-bottom: 50px;
 }
 
-.t-list .bedev , .num {
+.t-list .bedev,
+.num {
   color: #172b4d;
 }
 
@@ -174,7 +180,7 @@ div .first-card > img {
 }
 
 .canopy {
-  color : #344563;
+  color: #344563;
 }
 
 p.text_para2 {
@@ -182,8 +188,8 @@ p.text_para2 {
   padding-right: 3px;
 }
 
- /* Multi-Post Section  */
-div .multi-post-wrap {
+/* Multi-Post Section  */
+.multi-post-wrap {
   width: 350px;
   background-color: #fff;
   border-radius: 3%;
@@ -205,7 +211,8 @@ div .second-card > img {
   margin-bottom: 50px;
 }
 
-.mp-list .bedev , .num {
+.mp-list .bedev ,
+.num {
   color: #172b4d;
 }
 
@@ -251,15 +258,6 @@ div .third-card > img {
 .t-list .dot {
   margin-right: 10px;
   margin-left: 10px;
-}
-
-.canopy {
-  color : #344563;
-}
-
-p.text_para2 {
-  color: #172b4d;
-  padding-right: 3px;
 }
 
 /* Multi-PostB-Sections */
@@ -308,25 +306,6 @@ p.text_para2 {
   background-color: #fff;
   padding-left: 15px;
 }
-
-/*.lang, .frame, .skills {
-  margin: 50px 50px 40px 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.js-chev, .html-chev, .css-chev {
-  background-color: #f7f7f9;
-  display: flex;
-  align-items: center;
-  margin: 0 40px 30px 20px;
-  color: #253858;
-}
-
-.frame {
-  display: flex;
-  justify-content: space-between;
-}*/
 
 .lang, .frame, .skill {
   margin: 50px 50px 40px 20px;
