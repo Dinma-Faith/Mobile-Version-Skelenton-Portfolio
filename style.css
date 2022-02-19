@@ -8,13 +8,16 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-}
-
-.wrap {
   width: 450px;
   height: 100%;
   margin-left: 35%;
 }
+
+/*.wrap {
+  width: 450px;
+  height: 100%;
+  margin-left: 35%;
+}*/
 
 .header {
   display: flex;
