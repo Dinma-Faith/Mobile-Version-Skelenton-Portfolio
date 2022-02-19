@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .wrap {
-  width: 350px;
-  height: 90%;
+  width: 450px;
+  height: 100%;
   margin-left: 35%;
 }
 
@@ -28,6 +34,9 @@ body {
 }
 
 .content {
+  width: 80%;
+  height: auto;
+  margin: 0 50px auto;
   background-image: url(./img/headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,14 +61,234 @@ body {
   opacity: 0.5;
 }
 
-ul {
+.media-img {
   display: flex;
   align-items: flex-start;
   padding: 2px;
 }
 
-ul li {
+.media-img li {
   display: flex;
   justify-content: flex-start;
   margin-right: 10px;
+}
+
+/* Works-Section */
+.all-cards-wrap {
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e1e1;
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.multi-post-wrap,
+.tonic-wrap,
+.tonic-wrap-b,
+.multi-post-wrap-b {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.work {
+  font-family: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-right: 100px;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.work a {
+  text-decoration: none;
+  background-color: #ebebff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.button {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-width: 1px 1px;
+  border-color: #6070ff;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.button:enabled {
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+}
+
+/* Tonic-Section */
+div .tonic-wrap {
+  width: 350px;
+  background-color: #fff;
+  border-width: 1px 1px;
+  border-radius: 3%;
+}
+
+div .first-card > img {
+  margin-top: 20px;
+}
+
+.tonic {
+  margin-right: 250px;
+  color: #172b4d;
+}
+
+.t-order {
+  margin-bottom: 50px;
+}
+
+.t-list .bedev,
+.num {
+  color: #172b4d;
+}
+
+.t-list .dot {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.canopy {
+  color: #344563;
+}
+
+p.text_para2 {
+  color: #172b4d;
+  padding-right: 3px;
+}
+
+/* Multi-Post Section  */
+.multi-post-wrap {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 3%;
+  border-width: 1px 1px;
+}
+
+div .second-card > img {
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.multi-post {
+  margin-right: 180px;
+  margin-top: 3px;
+  color: #172b4d;
+}
+
+.mp-order {
+  margin-bottom: 50px;
+}
+
+.mp-list .bedev,
+.num {
+  color: #172b4d;
+}
+
+.mp-list .dot {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Tonic-b Section */
+div .tonic-wrap-b {
+  width: 350px;
+  background-color: #fff;
+  border-width: 1px 1px;
+  border-radius: 3%;
+}
+
+div .third-card > img {
+  margin: 20px;
+}
+
+.t_b-order {
+  margin-bottom: 50px;
+}
+
+.tonic-b {
+  margin-right: 250px;
+  color: #172b4d;
+}
+
+/* Multi-PostB-Sections */
+div .multi-post-wrap-b {
+  width: 350px;
+  background-color: #fff;
+  border-width: 1px 1px;
+  border-radius: 10%;
+}
+
+div .forth-card > img {
+  margin: 20px;
+  margin-top: 20px;
+}
+
+/* About-Myself Section */
+.content2 {
+  background-color: #fff;
+  padding-left: 15px;
+}
+
+.lang,
+.frame,
+.skill {
+  margin: 50px 50px 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: larger;
+}
+
+.frame,
+.skill {
+  border-bottom: solid;
+  border-bottom-color: #dfe1e6;
+}
+
+.js-chev,
+.html-chev,
+.css-chev {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  margin: 0 40px 30px 20px;
+  color: #253858;
+  list-style-type: none;
+}
+
+.js-chev,
+.html-chev,
+.css-chev li {
+  padding-left: 5px;
+}
+
+ul .cont {
+  padding-left: 15px;
 }
